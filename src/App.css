@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fullItem {
+  margin: 0 auto;
+  padding-left: 5px;
+
+}
+
+.itemTitle {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 12px;
+  margin:0
+}
+
+p,b {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+
+input {
+
+  margin-left: 10px;
+}
+label {
+  color: white;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  width:100%;
+}
+
+ul li {
+  flex: 0 0 calc(25% - 4px);
+  margin: 2px;
+  padding: 2px 0;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  background-color: #00FFFF;
+}
